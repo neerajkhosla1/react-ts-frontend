@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "module": "es6",
+        "target": "es5",
+        "lib": ["es6", "dom"],
+        "sourceMap": true,
+        "allowJs": true,
+        "jsx": "react",
+        "moduleResolution": "node",
+        "rootDir": "src",
+        "forceConsistentCasingInFileNames": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noImplicitAny": true,
+        "importHelpers": true,
+        "strictNullChecks": false,
+        "suppressImplicitAnyIndexErrors": true,
+        "noUnusedLocals": true
+    },
+    "exclude": [
+        "node_modules",
+        "build",
+        "dist",
+        "webpack",
+        "jest",
+        "src/setupTests.ts",
+        "public",
+        "./webpack.config.js",
+        "./webpack.prod.js"
+    ],
+    "awesomeTypescriptLoaderOptions": {
+        "useWebpackText": true,
+        "useTranspileModule": true,
+        "doTypeCheck": true,
+        "forkChecker": true
+    },
+}

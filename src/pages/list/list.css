@@ -1,0 +1,17 @@
+.list-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-page li {
+    cursor: pointer;
+}
+
+.m-20 {
+    margin: 20px 0px;
+}
+
+.width-400 {
+    width: 400px;
+}
